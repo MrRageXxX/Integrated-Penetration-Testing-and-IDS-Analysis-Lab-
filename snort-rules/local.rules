@@ -1,1 +1,7 @@
+alert tcp any any -> any 22 (msg:"SSH Brute Force Attempt"; flags:S; threshold:type both, track by_src, count 5, seconds 60; sid:1000001; rev:1;)
 
+alert tcp any any -> any 445 (msg:"Samba Exploit Attempt"; flow:to_server,established; sid:1000005; rev:1;)
+
+alert tcp any any -> any any (msg:"Reverse Shell Detected"; content:"/bin/sh"; sid:1000006; rev:1;)
+
+alert tcp any any -> any any (msg:"Netcat Reverse Shell"; content:"nc"; sid:1000007; rev:1;)
