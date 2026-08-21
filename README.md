@@ -1,4 +1,4 @@
-# Integrated-Penetration-Testing-and-IDS-Analysis-Lab-
+# Integrated-Penetration-Testing-and-IDS-Analysis-
 Integrated Penetration Testing and IDS Analysis Lab using Kali Linux, Metasploit, Hydra, and Snort.
 # Integrated Penetration Testing & IDS Analysis Lab
 
