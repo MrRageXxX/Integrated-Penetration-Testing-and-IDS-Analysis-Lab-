@@ -1,6 +1,6 @@
 # Integrated-Penetration-Testing-and-IDS-Analysis-
 Integrated Penetration Testing and IDS Analysis Lab using Kali Linux, Metasploit, Hydra, and Snort.
-# Integrated Penetration Testing & IDS Analysis Lab
+# Integrated Penetration Testing & IDS Analysis 
 
 ## Overview
 This project demonstrates a simulated cyber attack and intrusion detection workflow in a virtualized lab environment using Kali Linux, Metasploit, Hydra, and Snort IDS.
